@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Friend Finder</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1 class="text-center">Friend Finder</h1>
+        <h3>Survey Questions</h3>
+
+
+    </div>
+    <div class="container">
+        <div class="col-sm-12 col-sm-offset-3">
+            <form>
+                <div class="form-group">
+                    <h3>About You</h3>
+                    <label for="exampleInputEmail1">Name (Required)</label>
+                    <input type="text" class="form-control" id="friendName" aria-describedby="emailHelp"
+                        placeholder="Name">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Link to photo (Required)</label>
+                    <input type="password" class="form-control" id="friendPhoto" placeholder="Link">
+                </div>
+                <div class="form-group col-md-6">
+                    <h4>Question 1</h4>
+                    <label for="exampleInputEmail1"></label>Your mind is always buzzing with unexplored ideas and
+                    plans.</label>
+
+
+                    <label for="inputState">State</label>
+                    <select id="question1" class="form-control">
+                        <option selected>Select an option</option>
+                        <option>1 (Strongly Disagree)</option>
+                        <option>2 </option>
+                        <option>3 </option>
+                        <option>4 </option>
+                        <option>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+            
+
+                    <div class="form-group col-md-6">
+                        <h4>Question 2</h4>
+                        <label for="exampleInputEmail1"></label>Generally speaking, you rely more on your experience than your imagination.</label>
+
+
+                        <label for="inputState"></label>
+                        <select id="question2" class="form-control">
+                            <option selected>Select an option</option>
+                            <option>1 (Strongly Disagree)</option>
+                            <option>2 </option>
+                            <option>3 </option>
+                            <option>4 </option>
+                            <option>5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group col-md-6">
+                            <h4>Question 3</h4>
+                            <label for="exampleInputEmail1"></label>You find it easy to stay relaxed and focused even when there is some pressure.</label>
+    
+    
+                            <label for="inputState"></label>
+                            <select id="question3" class="form-control">
+                                <option selected>Select an option</option>
+                                <option>1 (Strongly Disagree)</option>
+                                <option>2 </option>
+                                <option>3 </option>
+                                <option>4 </option>
+                                <option>5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                                <h4>Question 4</h4>
+                                <label for="exampleInputEmail1"></label>You rarely do something just out of sheer curiosity</label>
+        
+        
+                                <label for="inputState"></label>
+                                <select id="question4" class="form-control">
+                                    <option selected>Select an option</option>
+                                    <option>1 (Strongly Disagree)</option>
+                                    <option>2 </option>
+                                    <option>3 </option>
+                                    <option>4 </option>
+                                    <option>5 (Strongly Agree)</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                    <h4>Question 5</h4>
+                                    <label for="exampleInputEmail1"></label>People can rarely upset you.</label>
+            
+            
+                                    <label for="inputState"></label>
+                                    <select id="question5" class="form-control">
+                                        <option selected>Select an option</option>
+                                        <option>1 (Strongly Disagree)</option>
+                                        <option>2 </option>
+                                        <option>3 </option>
+                                        <option>4 </option>
+                                        <option>5 (Strongly Agree)</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-6">
+                                        <h4>Question 6</h4>
+                                        <label for="exampleInputEmail1"></label>It is often difficult for you to relate to other people’s feelings.</label>
+                
+                
+                                        <label for="inputState"></label>
+                                        <select id="question6" class="form-control">
+                                            <option selected>Select an option</option>
+                                            <option>1 (Strongly Disagree)</option>
+                                            <option>2 </option>
+                                            <option>3 </option>
+                                            <option>4 </option>
+                                            <option>5 (Strongly Agree)</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                            <h4>Question 7</h4>
+                                            <label for="exampleInputEmail1"></label>In a discussion, truth should be more important than people’s sensitivities.</label>
+                    
+                    
+                                            <label for="inputState"></label>
+                                            <select id="question7" class="form-control">
+                                                <option selected>Select an option</option>
+                                                <option>1 (Strongly Disagree)</option>
+                                                <option>2 </option>
+                                                <option>3 </option>
+                                                <option>4 </option>
+                                                <option>5 (Strongly Agree)</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group col-md-6">
+                                                <h4>Question 8</h4>
+                                                <label for="exampleInputEmail1"></label>You rarely get carried away by fantasies and ideas.</label>
+                        
+                        
+                                                <label for="inputState"></label>
+                                                <select id="question8" class="form-control">
+                                                    <option selected>Select an option</option>
+                                                    <option value=1>1 (Strongly Disagree)</option>
+                                                    <option value=2>2 </option>
+                                                    <option>3 </option>
+                                                    <option>4 </option>
+                                                    <option>5 (Strongly Agree)</option>
+                                                </select>
+                                            </div>
+
+                                            <div class="form-group col-md-6">
+                                                    <h4>Question 9</h4>
+                                                    <label for="exampleInputEmail1"></label>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</label>
+                            
+                            
+                                                    <label for="inputState"></label>
+                                                    <select id="question9" class="form-control">
+                                                        <option selected>Select an option</option>
+                                                        <option>1 (Strongly Disagree)</option>
+                                                        <option>2 </option>
+                                                        <option>3 </option>
+                                                        <option>4 </option>
+                                                        <option>5 (Strongly Agree)</option>
+                                                    </select>
+                                                </div>
+
+                                            
+                                                <div class="form-group col-md-6">
+                                                        <h4>Question 10</h4>
+                                                        <label for="exampleInputEmail1"></label>You feel more energetic after spending time with a group of people.</label>
+                                
+                                
+                                                        <label for="inputState"></label>
+                                                        <select id="question10" class="form-control">
+                                                            <option selected>Select an option</option>
+                                                            <option>1 (Strongly Disagree)</option>
+                                                            <option>2 </option>
+                                                            <option>3 </option>
+                                                            <option>4 </option>
+                                                            <option>5 (Strongly Agree)</option>
+                                                        </select>
+                                                    </div>
+            
+        
+    
+                        
+                    
+
+                                                    <div class="form-group col-md-6">
+                        <button id="enter" type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+            </form>
+
+        </div>
+    </div>
+
+
+<script type="text/javascript">
+    // Question: What does this code do?
+    $("#enter").on("click", function(event) {
+        event.preventDefault();
+        console.log("test2");
+      var newFriend = {
+        name: $("#friendName").val().trim(),
+        photo: $("#friendPhoto").val().trim(),
+        scores:[ 
+            $("#question1").val().trim(), 
+            $("#question2").val().trim(),
+            $("#question3").val().trim(),
+            $("#question4").val().trim(),
+            $("#question5").val().trim(),
+            $("#question6").val().trim(),
+            $("#question7").val().trim(),
+            $("#question8").val().trim(),
+            $("#question9").val().trim(),
+            $("#question10").val().trim()]
+       }
+
+       $.post("/api/friends", newFriend, function(response) {
+         console.log("test");
+       });
+
+    });
+
+//       * Convert each user's results into a simple array of numbers (ex: `[5, 1, 4, 4, 5, 1, 2, 5, 4, 1]`).
+//    * With that done, compare the difference between current user's scores against those from other users, question by question. Add up the differences to calculate the `totalDifference`.
+//      * Example:
+//        * User 1: `[5, 1, 4, 4, 5, 1, 2, 5, 4, 1]`
+//        * User 2: `[3, 2, 6, 4, 5, 1, 2, 5, 4, 1]`
+//        * Total Difference: **2 + 1 + 2 =** **_5_**
+
+      // Question: What does this code do??
+
+  </script>
+
+</body>
+
+</html>
